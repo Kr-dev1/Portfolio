@@ -51,7 +51,7 @@ const Contact = () => {
 
   return (
     <div className="flex justify-center items-center">
-      <div className="md:w-[60%] px-6">
+      <div className="md:w-[80%] px-6">
         <div className="grid md:grid-cols-2 gap-4">
           <div className="md:px-12">
             <div>
@@ -60,6 +60,10 @@ const Contact = () => {
                 If you consider me a good candidate for an open position, or if
                 you'd like to discuss a freelance project, else if you just want
                 to say hello, contact me on social media, or send me a message!
+                else, Looking to get in touch with me? I'm all ears! You can
+                drop me a line at kasturirangan20@gmail.com and I'll get back to
+                you quicker than you can say "abracadabra." Let's connect and
+                make some magic happen!
               </p>
             </div>
             <div className="flex justify-center gap-5">

@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="flex items-center justify-center md:mt-[60px] text-white drop-shadow-custom">
       <div className="flex flex-col md:flex-row items-center w-[90%] md:w-[80%]  bg-[#202020] px-10 py-10 rounded-2xl font-kanit">
         <div>
-          <img className="min-w-[200px] px-4 mr-2 pb-10" src={heroimg} />
+          <img className="min-w-[200px] px-4 mr-2 pb-10" src={heroimg} loading="lazy"/>
         </div>
         <div>
           <p className="py-2">
