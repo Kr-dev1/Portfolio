@@ -1,6 +1,5 @@
 import React from "react";
 import { AiOutlineGithub, AiOutlineHome } from "react-icons/ai";
-import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -28,12 +27,12 @@ const Projects = () => {
           </div>
           <div className="py-6 md:px-8">
             <p>Tech Stack :</p>
-            <div className="flex gap-4">
-                <p className="uppercase text-react">React</p>
-                <p className="uppercase text-javascript">Javascript</p>
-                <p className="uppercase text-css">Css</p>
-                <p className="uppercase text-tailwind">Tailwind</p>
-                <p className="uppercase text-firebase">firebase</p>
+            <div className="flex flex-wrap gap-4">
+              <p className="uppercase text-react">React</p>
+              <p className="uppercase text-javascript">Javascript</p>
+              <p className="uppercase text-css">Css</p>
+              <p className="uppercase text-tailwind">Tailwind</p>
+              <p className="uppercase text-firebase">firebase</p>
             </div>
           </div>
           <div className="md:px-8">
@@ -171,8 +170,60 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="flex justify-center items-center bg-[#202020] drop-shadow-projects rounded-2xl h-[300px] md:h-auto">
-          <p>Work in progress.....</p>
+        <div className="bg-[#202020] drop-shadow-projects rounded-xl px-4 py-10">
+          <div>
+            <p>
+              <a
+                className="border-b-[2px]"
+                href="https://github.com/Kr-dev1"
+                target="blank"
+              >
+                Kasturi
+              </a>{" "}
+              <span>/</span>{" "}
+              <a
+                className="border-b-[2px]"
+                href="https://github.com/Kr-dev1/mystery-message"
+                target="blank"
+              >
+                Mystry Message
+              </a>
+            </p>
+          </div>
+          <div className="py-6 md:px-8">
+            <p>Tech Stack : </p>
+            <div className="flex flex-wrap gap-4">
+              <p className=" text-gray-500 uppercase">Next</p>
+              <p className="text-tailwind uppercase">Tailwind CSS</p>
+              <p className="text-javascript uppercase">Javascript</p>
+              <p className="text-green-600 uppercase">MogoDB</p>
+              <p className="text-blue-500 uppercase">TypeScript</p>
+            </div>
+          </div>
+          <div className="md:px-8">
+            <p>
+              The QR code generator is a JavaScript-based application that
+              allows users to generate and download custom QR codes based on
+              their input. Users can enter various types of data, such as text,
+              URLs, contact information, or even WiFi credentials, and the
+              application will dynamically generate a QR code representing that
+              data.
+            </p>
+          </div>
+          <div className="flex items-center justify-center gap-10 pt-12 drop-shadow-projects">
+            <a href="https://qr-everything.netlify.app" target="blank">
+              <div className="flex items-center">
+                <AiOutlineHome />
+                <p>HomePage</p>
+              </div>
+            </a>
+            <a href="https://github.com/Kr-dev1/Qr-code-gen" target="blank">
+              <div className="flex items-center">
+                <AiOutlineGithub />
+                <p>Github</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
