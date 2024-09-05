@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import heroimg from "../assets/hero.png";
 import Resume from "../assets/resume.pdf";
@@ -16,7 +17,7 @@ const Hero = () => {
         </div>
         <div>
           <p className="py-2">
-            Hi, I'm KasturiRangan. I'm based in Bangalore, India.
+            Hi, I&#39;m KasturiRangan. I'm based in Bangalore, India.
           </p>
           <p>
             As a{" "}
